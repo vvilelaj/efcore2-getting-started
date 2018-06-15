@@ -126,6 +126,16 @@
     <None Include="App.config" />
     <None Include="packages.config" />
   </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\SamuraiApp.Data\SamuraiApp.Data.csproj">
+      <Project>{0a64cab1-aa4d-4f5d-bb7b-69363b15ce4b}</Project>
+      <Name>SamuraiApp.Data</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\SamuraiApp.Domain\SamuraiApp.Domain.csproj">
+      <Project>{d69bd94c-b2e3-4f45-9bb4-7c1424b003f5}</Project>
+      <Name>SamuraiApp.Domain</Name>
+    </ProjectReference>
+  </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <Target Name="EnsureNuGetPackageBuildImports" BeforeTargets="PrepareForBuild">
     <PropertyGroup>
