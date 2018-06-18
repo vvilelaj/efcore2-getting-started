@@ -17,5 +17,6 @@ namespace SamuraiApp.Domain
         public List<Quote> Quogtes { get; set; }
         //public int BatleId { get; set; }
         public List<SamuraiBattle> SamuraiBattles { get; set; }
+        public SecretIdentity SecretIdentity { get; set; }
     }
 }
