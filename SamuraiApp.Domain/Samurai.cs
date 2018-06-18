@@ -6,15 +6,16 @@ using System.Threading.Tasks;
 
 namespace SamuraiApp.Domain
 {
-    public class Samuai
+    public class Samurai
     {
-        public Samuai()
+        public Samurai()
         {
             Quogtes = new List<Quote>();
         }
         public int Id { get; set; }
         public string Name { get; set; }
         public List<Quote> Quogtes { get; set; }
-        public int BatleId { get; set; }
+        //public int BatleId { get; set; }
+        public List<SamuraiBattle> SamuraiBattles { get; set; }
     }
 }
