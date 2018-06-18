@@ -127,6 +127,14 @@
     <Compile Include="Migrations\20180615044431_initial.designer.cs">
       <DependentUpon>20180615044431_initial.cs</DependentUpon>
     </Compile>
+    <Compile Include="Migrations\20180618041445_relationships.cs" />
+    <Compile Include="Migrations\20180618041445_relationships.designer.cs">
+      <DependentUpon>20180618041445_relationships.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\20180618041921_Renaming tables.cs" />
+    <Compile Include="Migrations\20180618041921_Renaming tables.designer.cs">
+      <DependentUpon>20180618041921_Renaming tables.cs</DependentUpon>
+    </Compile>
     <Compile Include="Migrations\SamuraiContextModelSnapshot.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="SamuraiContext.cs" />

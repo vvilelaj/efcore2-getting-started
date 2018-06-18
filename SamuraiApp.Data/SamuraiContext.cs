@@ -10,9 +10,9 @@ namespace SamuraiApp.Data
 {
     public class SamuraiContext : DbContext
     {
-        public DbSet<Samurai> Samuais { get; set; }
+        public DbSet<Samurai> Samurais { get; set; }
         public DbSet<Quote> Quotes { get; set; }
-        public DbSet<Battle> Batles { get; set; }
+        public DbSet<Battle> Battles { get; set; }
         protected override void OnConfiguring(DbContextOptionsBuilder optionsBuilder)
         {
             optionsBuilder.UseSqlServer(
